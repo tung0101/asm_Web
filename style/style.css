@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+	margin: 0;
+}
+
+body {
+	min-height: 100vh;
+	line-height: 1.5;
+}
+
+input,
+button,
+select,
+textarea {
+	font: inherit;
+}
+
+img,
+picture {
+	display: block;
+	max-width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+.sanpham {
+	background-color: #E6E6FA;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+	text-align: left;
+}
+
+.sanpham>img {
+	width: 255px;
+	height: 170px;
+}
+
+.sanpham .name {
+	color: blue;
+	font-size: 20px;
+}
+
+.sanpham .gia {
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.column {
+	width: 23%;
+	height: 340px;
+	float: left;
+	margin: 1%;
+}
+
+h2 {
+	padding: 5%;
+}
+
+.container1 {
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.container1 .title {
+	width: 100%;
+	text-align: center;
+	background: white;
+	padding: 15px 0;
+	margin-top: 2%;
+	border-radius: 15px;
+}
+
+.container1 .title h3 {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #2569c3;
+}
+
+.container2 {
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.container2 .title {
+	width: 100%;
+	text-align: center;
+	background: white;
+	padding: 15px 0;
+	margin-top: 60%;
+	border-radius: 15px;
+}
+
+.container2 .title h3 {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #2569c3;
+}
+
+.container3 {
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.container3 .title {
+	width: 100%;
+	text-align: center;
+	background: white;
+	padding: 15px 0;
+	margin-top: 2%;
+	border-radius: 15px;
+}
+
+.container3 .title h3 {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #2569c3;
+}
+
+.lienhe h2 {
+	text-align: justify;
+	color: blue;
+	margin-bottom: -3%;
+}
+
+.lienhe h3 {
+	margin-left: 5%;
+	font-weight: bold;
+}
+
+.diachi p {
+	margin-top: 1%;
+	margin-left: 5%;
+	margin-bottom: -3%;
+}
+
+.phanhoi h2 {
+	text-align: justify;
+	color: blue;
+	margin-top: 1%;
+	margin-bottom: -3%;
+}
+
+.phanhoi form {
+	margin-left: 5%;
+	padding-top: 2%;
+	margin-bottom: 5%;
+}
+
+.phanhoi input {
+	padding-left: 20%;
+	padding-bottom: 1%;
+}
+
+.phanhoi form .gui button {
+	padding-top: 8px;
+	padding-right: 18px;
+	padding-left: 18px;
+	padding-bottom: 8px;
+	margin-top: 2%;
+	border: blue;
+}
+
+* {
+
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1140px;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+}
+
+.row {
+	display: flex;
+	max-width: 100%;
+	flex-wrap: wrap;
+	margin-left: 130px;
+	margin-right: -15px;
+}
+
+header {
+	background-color: #6495ED;
+	padding: 0px 0 10px 0;
+}
+
+a:hover {
+	color: rgb(0, 0, 0);
+
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+}
+
+p {
+	margin: 10px 0 10px 0;
+}
+
+.title h3 {
+	font-size: 32px;
+	text-decoration: underline;
+	color: rgba(245, 40, 50, 1);
+}
+
+.menu ul li {
+	float: left;
+	margin-left: 40px;
+	list-style: none;
+
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+ul.menu_child {
+	position: absolute;
+	width: 230px;
+	background-color: #6495ED;
+	z-index: 9999;
+}
+
+ul.menu_child li {
+	padding: 15px 0 0 0;
+	float: none;
+	display: none;
+}
+
+
+.menu ul li:hover ul.menu_child li {
+	display: block;
+}
+
+.sticky-top {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+h2 {
+	padding: 5%;
+}
+
+.gt p {
+	text-align: justify;
+	margin: 2%;
+	font-size: larger;
+}
+
+.gt p img {
+	padding-left: 5%;
+	width: 530px;
+	height: 350px;
+}
+
+.gt .banner img {
+	width: 1420px;
+	height: 450px;
+	margin-left: 2%;
+}
+
+.gt h3 {
+	margin-left: 2%;
+}
+
+.gt h4 {
+	margin-left: 2%;
+}
+
+.gt .vs {
+	margin: 5%;
+}
+
+.h2 p {
+	margin-left: 2%;
+	font-weight: bold;
+	margin-top: 5%;
+	font-size: 25px;
+}
+
+/* footer */
+footer {
+	background: rgba(245, 102, 102, 0.05);
+	padding: 15px 0 0 0;
+	background-color: #F0F8FF;
+}
+
+footer .container .row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 5%;
+}
+
+footer .container .row .col-4 {
+	flex-basis: 33.333333%;
+	padding: 0 15px;
+}
+
+footer p.copyriht {
+	text-align: center;
+	padding: 10px 0;
+	margin: 0;
+	background: #1E90FF;
+	color: #fff;
+	font-size: 15px;
+}
+
+footer .container .row .col-4 img {
+	margin: 10px 0;
+}
+
+footer .container .row .col-4 .name_website {
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+footer .container .row .col-4 p {
+	font-size: 10px;
+	word-break: break-all;
+}
+
+footer .container .row .col-4 ul {
+	list-style: none;
+}
+
+footer .container .row .col-4 ul li {
+	margin: 10px 0px;
+
+}
+
+footer .container .row .col-4 .title1 {
+	color: #FF0040;
+	letter-spacing: 1px;
+}
+
+footer .container .row .col-4 ul li a {
+	text-decoration: none;
+	color: #FF3300;
+	font-size: 0.9rem;
+}
+
+footer .container .row .col-4 ul li a:hover {
+	text-decoration: none;
+}
+
+.anh {
+	width: 480px;
+	height: 360px;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+
+
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.container>header {
+	background-size: 100% 100%;
+	border: 1px solid red;
+	height: 250px;
+	margin: 25%;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+	font-variant: small-caps;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+td {
+	line-height: 30px;
+	border: 1px solid white;
+}
+
+.cot {
+	width: 40%;
+	height: 340px;
+	float: left;
+	margin: 1%;
+}
+
+input {
+	width: 100%;
+}
+
+.dat .dattuor {
+	margin-left: 13px;
+}
+
+.dat .dattuor form input {
+	margin-left: 10%;
+	border: 1px solid gray;
+}
